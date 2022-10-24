@@ -1,16 +1,16 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: Rattiel/Rattiel.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 김종일
+title: 웹 백엔드 주니어 개발자
+email: Whddlf0504@icloud.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 010-7666-0421
 # phone_title: Phone (Phone title override)
 website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -19,25 +19,13 @@ website: Your website (eg. https://google.com)(optional)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username: Rattiel
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,16 +40,10 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  스프링 부트을 공부를 공부하는 주니어 개발자 입니다.
 
 content:
-  - title: Projects # Title for the section
+  - title: 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -81,19 +63,21 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
+
+  - title: 대외활동 및 사회활동
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+      - layout: left
+        title: 창업 동아리(GREPLFA)
+        sub_title: 웹 팀장
+        caption: 2022. 09 ~ 현재
         link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+         농장의 시스템을 웹/앱을 통한 원격제어와 자동화시스템과 자동화시스템의 환경을 구축하는걸 목표로 하여 창업 준비중입니다.
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
+
+  - title: 학력
     layout: list
     content:
       - layout: top-right
