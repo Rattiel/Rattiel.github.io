@@ -47,10 +47,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: IOT 원격 제어 웹 (창업 동아리)
+        title: IOT 원격 제어 웹
         caption: 2022. 09 ~ 현재
         quote: >
-          Spring Boot 와 React.js 를 이용해 만든 원격 제어 웹 사이트 입니다.
+          IOT 제어 서버와 통신하는 원격 제어 웹 사이트이며, Spring Boot 와 React.js 를 이용해 만들었습니다.
           
   - title: Experience
     layout: list
@@ -65,7 +65,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: 한림대학교
         sub_title: 콘텐츠 IT 학과 (부:빅데이터 학과)
         caption: 2018 - 현재
