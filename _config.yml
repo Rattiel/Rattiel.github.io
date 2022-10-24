@@ -51,7 +51,7 @@ content:
         quote: >
           Spring Boot 와 React.js 를 이용해 만든 원격 제어 웹 사이트 입니다.
         description: | # this will include new lines to allow paragraphs
-          - Images ![alt text](/images/pro_1.png "사진")
+          - Images ![alt text](/images/pro_1.PNG "사진")
           
   - title: Experience
     layout: list
