@@ -47,11 +47,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: IOT 원격 제어 웹
+        title: IOT 원격 제어 웹 (창업 동아리)
+        caption: 2022. 09 ~ 현재
         quote: >
           Spring Boot 와 React.js 를 이용해 만든 원격 제어 웹 사이트 입니다.
-        description: | # this will include new lines to allow paragraphs
-          - Images ![alt text](/images/pro_1.PNG "사진")
           
   - title: Experience
     layout: list
