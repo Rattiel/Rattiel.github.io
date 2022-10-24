@@ -12,7 +12,7 @@ email: Whddlf0504@icloud.com
 # email_title: Email (Email title override)
 phone: 010-7666-0421
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -43,7 +43,7 @@ about_content: | # this will include new lines to allow paragraphs
   스프링 부트을 공부를 공부하는 주니어 개발자 입니다.
 
 content:
-  - title: 프로젝트 # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -64,39 +64,26 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
 
-  - title: 대외활동 및 사회활동
+  - title: Experience
     layout: list
     content:
       - layout: left
         title: 창업 동아리(GREPLFA)
         sub_title: 웹 팀장
         caption: 2022. 09 ~ 현재
-        link: Link to company (optional)
         quote: >
          농장의 시스템을 웹/앱을 통한 원격제어와 자동화시스템과 자동화시스템의 환경을 구축하는걸 목표로 하여 창업 준비중입니다.
-        description: | # this will include new lines to allow paragraphs
-          Description of role
 
-  - title: 학력
+  - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: right
+        title: 한림대학교
+        sub_title: 콘텐츠 IT 학과 (부:빅데이터 학과)
+        caption: 2018 - 현재
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
